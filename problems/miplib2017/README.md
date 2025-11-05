@@ -22,5 +22,5 @@ Original web site of [MIPLIB 2017](https://miplib.zib.de/)
 | Name                                   |
 |----------------------------------------|
 | [markshare_4_0](https://miplib.zib.de/instance_details_markshare_4_0.html) |
-
+| [mas76](https://miplib.zib.de/instance_details_mas76.html) |
 
