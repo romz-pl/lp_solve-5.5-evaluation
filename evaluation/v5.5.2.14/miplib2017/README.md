@@ -1,5 +1,13 @@
 # Evaluation of MIPLIB 2017
 
+## Command
+
+```
+lp_solve -v4 -time -stat -S1 -R -fmps ./FILE.mps 2>&1 | tee /dev/stderr > FILE.mps.sol
+```
+
+## Evaluation
+
 | Solution                               | Objective      | MIPLIB Reference              |
 |----------------------------------------|---------------:|-------------------------------|
 | [markshare_4_0](markshare_4_0.mps.sol) |     1.00000000 | [miplib](https://miplib.zib.de/instance_details_markshare_4_0.html) |
