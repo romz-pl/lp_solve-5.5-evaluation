@@ -1,17 +1,16 @@
-# Evaluation of MIPLIB 2017: timeout 10s
+# Evaluation of MIPLIB 2017: timeout 60s
 
-
-## Benchamrk
 
 The following command was executed to run the benchmark:
 ```
 find . -maxdepth 1 -name "*.mps" -type f | \
-xargs -P 4 -I {} sh -c 'echo "{}" & lp_solve -timeout 10s -timeoutok -presolve -v4 -stat -S1 -fmps "{}" > "{}".sol'
+xargs -P 4 -I {} sh -c \
+'echo "{}" & lp_solve -timeout 60s -timeoutok -presolve -v4 -stat -S1 -fmps "{}" > "{}".sol'
 ```
 
 The following command was executed to obtain the `Relaxed Solution` value:
 ```
-grep -h -oP 'Relaxed solution\s+\K[0-9.-]+(?=\s+after)' *.mps.sol
+grep -oP 'Relaxed solution\s+\K[0-9.-]+(?=\s+after)' *.mps.sol
 ```
 
 | Problem                                                           | Relaxed solution | Objective      | MIPLIB Reference              |
