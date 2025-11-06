@@ -1,12 +1,12 @@
 # Evaluation of MIPLIB 2017
 
-## Command
+
+
+## Selected problems
 
 ```
 lp_solve -v4 -time -stat -S1 -R -fmps ./FILE.mps > FILE.mps.sol
 ```
-
-## Selected problems
 
 | Problem                                | Objective      | MIPLIB Reference              |
 |----------------------------------------|---------------:|-------------------------------|
@@ -18,6 +18,13 @@ lp_solve -v4 -time -stat -S1 -R -fmps ./FILE.mps > FILE.mps.sol
 
 
 ## Benchmark
+
+```
+find . -maxdepth 1 -name "*.mps" -type f -printf "%s %p\n" | \
+sort -n | \
+cut -d' ' -f2- | \
+xargs -P 4 -I {} sh -c 'echo "{}" & timeout 10m lp_solve -presolve -v4 -stat -S1 -fmps "{}" > "{}".sol'
+```
 
 | Problem                                | Objective      | MIPLIB Reference              |
 |----------------------------------------|---------------:|-------------------------------|
