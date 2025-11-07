@@ -259,7 +259,7 @@ grep -oP 'Relaxed solution\s+\K[0-9.-]+(?=\s+after)' *.mps.sol
 
 ### Remarks
 
-  - **F** - Final solution
+  - **Final** - Final solution
   - **I** - Infeasible problem
   - **S** - Suboptimal solution
   - **T** - Timeout
