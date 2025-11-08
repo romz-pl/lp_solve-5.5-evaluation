@@ -1,0 +1,109 @@
+Constraints: 850
+Variables  : 1385
+Integers   : 1384
+Semi-cont  : 0
+SOS        : 0
+Non-zeros  : 384329	density=32.646337%
+
+Absolute Ranges:
+
+       Minima                                  Maxima
+
+Matrix Coeficients:
+A(R0340, C0001) = 1.00000000            A(R0341, C0002) = 21.00000000
+A(R0340, C0163) = -2.00000000           A(R0340, C0181) = -20.00000000
+A(R0340, C0164) = -3.00000000           A(R0340, C0180) = -19.00000000
+A(R0340, C0165) = -4.00000000           A(R0340, C0179) = -18.00000000
+A(R0340, C0166) = -5.00000000           A(R0340, C0178) = -17.00000000
+
+Obj. Vector:
+c(C0182) = 16.00000000                  c(C0454) = 3762.00000000
+c(C0185) = 17.00000000                  c(C0450) = 3624.00000000
+c(C0183) = 18.00000000                  c(C0452) = 3520.00000000
+c(C0187) = 19.00000000                  c(C0397) = 3502.00000000
+c(C0721) = 86.00000000                  c(C0455) = 3451.00000000
+
+RHS Vector:
+b(R0001) = 1.00000000                   b(R0341) = 2.00000000
+b(R0341) = 2.00000000                   b(R0001) = 1.00000000
+
+Model name:  'neos-860300' - run #1    
+Objective:   Minimize(R0851)
+ 
+SUBMITTED
+Model size:      850 constraints,    1385 variables,       384329 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+                   1 variables' final bounds.............. RELAXED.
+                     [           +0 < Z < Inf           ]
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+
+Relaxed solution       1666.06858574 after        364 iter is B&B base.
+ 
+bfp_factorize: Resolving 1 singularity at refact 7, iter 1406
+spx_run: Lost feasibility 10 times - iter       1415 and         3 nodes.
+bfp_factorize: Resolving 1 singularity at refact 9, iter 1687
+bfp_factorize: Resolving 1 singularity at refact 9, iter 1687
+spx_run: Lost feasibility 10 times - iter       1767 and         5 nodes.
+Feasible solution               6175 after      14674 iter,       112 nodes (gap 270.5%)
+Improved solution               5919 after      17716 iter,       246 nodes (gap 255.1%)
+Improved solution               5911 after      22172 iter,       400 nodes (gap 254.6%)
+Improved solution      5865.00000001 after      56574 iter,      2148 nodes (gap 251.9%)
+Improved solution               5830 after      57664 iter,      2176 nodes (gap 249.8%)
+Improved solution               5816 after      58488 iter,      2206 nodes (gap 248.9%)
+Improved solution               5805 after      59724 iter,      2282 nodes (gap 248.3%)
+Improved solution               5796 after      60060 iter,      2293 nodes (gap 247.7%)
+bfp_factorize: Resolving 1 singularity at refact 4326, iter 164494
+bfp_factorize: Resolving 1 singularity at refact 4326, iter 164494
+spx_run: Lost feasibility 10 times - iter     164512 and      8022 nodes.
+Improved solution               5794 after     242132 iter,     11720 nodes (gap 247.6%)
+spx_run: Lost feasibility 10 times - iter     268225 and     12984 nodes.
+spx_run: Lost feasibility 10 times - iter     321992 and     15463 nodes.
+spx_run: Lost feasibility 10 times - iter     326441 and     15687 nodes.
+Improved solution               5424 after     373900 iter,     18049 nodes (gap 225.4%)
+bfp_factorize: Resolving 1 singularity at refact 10219, iter 399249
+spx_run: Lost feasibility 10 times - iter     399249 and     19015 nodes.
+bfp_factorize: Resolving 1 singularity at refact 10953, iter 428209
+spx_run: Lost feasibility 10 times - iter     450590 and     21431 nodes.
+Improved solution               5417 after     452534 iter,     21547 nodes (gap 225.0%)
+Improved solution               5402 after     452574 iter,     21551 nodes (gap 224.1%)
+Improved solution               5399 after     518876 iter,     24862 nodes (gap 223.9%)
+bfp_factorize: Resolving 1 singularity at refact 13675, iter 530406
+spx_run: Lost feasibility 10 times - iter     530406 and     25571 nodes.
+bfp_factorize: Resolving 1 singularity at refact 14703, iter 574552
+spx_run: Lost feasibility 10 times - iter     574573 and     27528 nodes.
+bfp_factorize: Resolving 1 singularity at refact 15659, iter 624547
+bfp_factorize: Resolving 1 singularity at refact 15659, iter 624547
+Improved solution      4881.99999997 after     888049 iter,     41249 nodes (gap 192.9%)
+Improved solution               4820 after     920149 iter,     42672 nodes (gap 189.2%)
+Improved solution               4777 after     920306 iter,     42682 nodes (gap 186.6%)
+Improved solution               4536 after     930258 iter,     43075 nodes (gap 172.2%)
+Improved solution               4511 after     930394 iter,     43088 nodes (gap 170.7%)
+Improved solution               4402 after     931195 iter,     43109 nodes (gap 164.1%)
+Improved solution               4347 after     931416 iter,     43125 nodes (gap 160.8%)
+Improved solution               4204 after     933228 iter,     43175 nodes (gap 152.2%)
+Improved solution               4192 after     933260 iter,     43178 nodes (gap 151.5%)
+Improved solution               3781 after     935339 iter,     43263 nodes (gap 126.9%)
+Improved solution               3741 after     938176 iter,     43344 nodes (gap 124.5%)
+
+lp_solve optimization was stopped due to time-out.
+ 
+Optimal solution                3741 after    1047269 iter,     47240 nodes (gap 124.5%).
+
+Relative numeric accuracy ||*|| = 1.55431e-15
+
+ MEMO: lp_solve version 5.5.2.11 for 64 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1047269, 180367 (17.2%) were bound flips.
+      There were 25231 refactorizations, 0 triggered by time and 16 by density.
+       ... on average 34.4 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 45104 NZ entries, 1.0x largest basis.
+      The maximum B&B level was 148, 0.1x MIP order, 51 at the optimal solution.
+      The constraint matrix inf-norm is 21, with a dynamic range of 21.
+      Time to load data was 0.078 seconds, presolve used 0.067 seconds,
+       ... 299.934 seconds in simplex solver, in total 300.079 seconds.
+Suboptimal solution
+
+Value of objective function: 3741.00000000
