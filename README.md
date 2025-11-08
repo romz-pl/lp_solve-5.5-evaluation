@@ -42,11 +42,11 @@
 
 ## MIPLIB
 
-1. The **lp_solve" was evaluated using problems from the [MIPLIB database](https://miplib.zib.de/).
+1. The **lp_solve** was evaluated using problems from the [**MIPLIB database**](https://miplib.zib.de/).
 
-2. The current maintainers of the MIPLIB website and its content are Ambros Gleixner and Mark Turner. 
+2. The current maintainers of the **MIPLIB** website and its content are Ambros Gleixner and Mark Turner. 
 
-3. Citation for the MIPLIB database:
+3. Citation for the **MIPLIB** database:
 
 ```
 @article{
