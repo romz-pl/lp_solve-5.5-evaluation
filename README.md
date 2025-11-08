@@ -73,3 +73,7 @@
   url     = {https://doi.org/10.1007/s12532-020-00194-3}
 }
 ```
+
+4. The Abstract of the article "MIPLIB 2017: Data-Driven Compilation of the 6th Mixed-Integer Programming Library":
+
+> We report on the selection process leading to the sixth version of the Mixed Integer Programming Library, MIPLIB 2017. Selected from an initial pool of 5721 instances, the new MIPLIB 2017 collection consists of 1065 instances. A subset of 240 instances was specially selected for benchmarking solver performance. For the first time, these sets were compiled using a data-driven selection process supported by the solution of a sequence of mixed integer optimization problems, which encode requirements on diversity and balancedness with respect to instance features and performance data. 
